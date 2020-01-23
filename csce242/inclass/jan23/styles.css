@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(images/cowsbackground.jpg);
+}
+
+h1{
+    text-align: center;
+}
+
+#content{
+    background: white;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(231, 227, 227);
+}
+
+#main-nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#main-nav a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 5px;
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+
+#main-nav a:hover{
+    border-bottom: 2px solid #1E9400;
+}
+
+img{
+    border: 2px solid transparent;
+}
+
+img:hover{
+    border: 2px solid #1E9400;
+}
+
+#mountaincow, #rowcows{
+    border: 5px solid transparent;
+}
+
+#rowcows:hover{
+    border: 5px dotted #1E9400;
+}
+
+#mountaincow:hover{
+    border: 5px dotted #99FF55;
+}
