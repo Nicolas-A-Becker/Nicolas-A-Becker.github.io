@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #C4CCFF
+}
+
+#content{
+    background: #FFF1C4;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow:  5px 5px #B3A166;
+}
+
+a{
+    color: #787FB3;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #C4CCFF;
+}
+
