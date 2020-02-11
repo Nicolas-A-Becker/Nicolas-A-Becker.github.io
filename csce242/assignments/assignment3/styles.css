@@ -3,70 +3,69 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#content{
-
-}
-
 #page-title{
     text-align: center;
 }
 
 #main-nav ul{
-    list-style-type: none;
-    display: inline-block;
+    display: inline;
+    padding: 10px;
 }
 
 #main-nav{
     background: darkgray;
+    list-style-type: none;
+}
+
+#main-text{
+    display: flex;
+    padding: 4px;
 }
 
 #main-content{
-    display: flex;
-}
-
-.main-content{
     background: lightblue;
-    flex: 70%;
+    padding: 10px;
+    margin: 5px;
 }
 
-.first-aside{
+#sidebar{
     background: lightblue;
-    flex: 20%;
-}
-
-.twocolumns{
-    background: lightyellow;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-}
-
-.threecolumns{
-    background: lightblue;
-    align-items: stretch;
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: row;
     padding: 5px;
-    flex: 15%;
+    margin: 5px;
+}
+
+#columns{
+    display: flex;
+}
+
+.two-columns{
+    /*All effected boxes grow at the same rate*/
+    flex: 1;
+    background: lightyellow;
+    margin: 5px;
+}
+
+.nested-columns{
+    display: flex;
+    padding: 5px;
+    background: lightblue;
+    margin: 5px;
+}
+
+#main-footer{
+    background: lightgrey;
+    text-align: right;
+}
+
+#main-footer h2{
+    text-align: center;
 }
 
 #pics{
     display: flex;
-    flex: 25%;
-    align: auto;
-}
-
-#main-footer{
-    text-align: right;
-}
-
-#articletitles{
-    background: lightyellow;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-around;
+    display: block;
+    margin: auto;
+    flex: 1;
 }
 
 @media (min-width: 900px){

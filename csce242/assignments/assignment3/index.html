@@ -19,12 +19,12 @@
                     <ul>Nav Item 5</ul>
                 </ol>
             </nav>
-            <div id="main-content">
-                <section class="main-content">
+            <div id="main-text">
+                <section id="main-content">
                     <h2>Main Content</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in urna aliquam, eleifend risus id, pulvinar magna. Aliquam placerat felis vitae diam convallis tempus ut nec felis. Donec mattis diam odio, id pulvinar velit placerat efficitur. Aliquam erat volutpat. Maecenas feugiat hendrerit enim nec laoreet. Integer nec venenatis erat. Quisque commodo ornare mi, faucibus fermentum odio tincidunt non. Praesent metus nunc, venenatis sagittis mattis non, ornare eu tellus. Nulla finibus felis a orci facilisis, vitae rhoncus orci volutpat. Phasellus bibendum nulla tortor, et egestas tortor finibus quis. Donec ligula dolor, facilisis sed tincidunt nec, molestie ac ligula. Curabitur elementum blandit eros, id maximus velit auctor sit amet. Sed vitae faucibus ex, in consectetur dolor.</p>
                 </section>
-                <aside class="first-aside">
+                <aside id="sidebar">
                     <h2>Side Bar</h2>
                     <ol>
                         <ul>Item 1</ul>
@@ -33,22 +33,23 @@
                     </ol>
                 </aside>
             </div>
-            <div id="articletitles">
-                <h2 >Column 1 of 2</h2>
-                <h2 >Column 2 of 2</h2>
-            </div>
-            <div class="twocolumns">
-                
-                <div class="threecolumns">
-                    <article>Nester Column 1</article>
-                    <article>Nested Column 2</article>
-                    <article>Nester Column 3</article>
-                </div>
-                <div class="threecolumns">
-                    <article>Nested Column 1</article>
-                    <article>Nested Column 2</article>
-                    <article>Nested Column 3</article>
-                </div>
+            <div id="columns">
+                <section class="two-columns">
+                    <h2>Column 1 of 2</h2>
+                    <div class="nested-columns">
+                        <article>Nested Column 1</article>
+                        <article>Nested Column 2</article>
+                        <article>Nester Column 3</article>
+                    </div>
+                </section>
+                <section class="two-columns">
+                    <h2>Column 2 of 2</h2>
+                    <div class="nested-columns">
+                        <article>Nested Column 1</article>
+                        <article>Nested Column 2</article>
+                        <article>Nester Column 3</article>
+                    </div>
+                </section>
             </div>
             <div id="pics">
                 <img src="https://place-hold.it/320x100">
