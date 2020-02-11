@@ -20,6 +20,7 @@ html{
 }
 
 #input-boxes label{
+    margin: 50px;
     width: 100px;
     text-align: right;
     padding: 5px;
@@ -27,6 +28,7 @@ html{
 }
 
 #input-boxes input{
+    margin: 10px;
     width: 50%;
     padding: 5px;
 }

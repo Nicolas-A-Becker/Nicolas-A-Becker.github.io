@@ -67,7 +67,10 @@ a:hover{
         display: flex;
     }
     
-    #assignments{
+    #assignments-first{
+        display: flex;
+    }
+    #assignments-second{
         display: flex;
     }
 }
