@@ -45,13 +45,16 @@ a:hover{
     box-shadow: 0 0 0 2px #B3A166;
 }
 
-/*      Literally doesn't do a thing.
-#in-class-title h2{
+h2{
     text-align: center;
-    width: 100%;
-    margin: 0 auto;
 }
-*/
+
+#overall-in-class{
+    margin-top: 10px;
+    background: #FFF1C4;
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #B3A166;
+}
 
 .in-class{
     flex-direction: row;
