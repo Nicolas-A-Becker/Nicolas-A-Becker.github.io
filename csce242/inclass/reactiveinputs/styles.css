@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-content{
+    background: lightpink;
+    padding: 40px;
+    margin: 20px;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
+#main-content label{
+    width: 60;
+    display: block;
+    padding: 5px;
+}
+
+#main-content input{
+    width: 60%;
+    display: block;
+    padding: 5px;
+}
+
+#main-content button{
+    width: 35%;
+}
+
+#main-content input:focus{
+    background: skyblue;
+}
+
+.hidden{
+    display: none;
+}

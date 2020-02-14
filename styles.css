@@ -34,6 +34,10 @@ a:hover{
     color: #787FB3;
 }
 
+#assignments-first{
+    flex-wrap: wrap;
+}
+
 .first-row{
     flex-direction: row;
     flex: 1;
@@ -45,7 +49,18 @@ a:hover{
     box-shadow: 0 0 0 2px #B3A166;
 }
 
-h2{
+.second-row{
+    flex-direction: row;
+    flex: 1;
+    margin: 10px;
+    padding: 4px;
+    background: #C4CCFF;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 0 2px #B3A166;
+}
+
+#in-class-title h2{
     text-align: center;
 }
 
@@ -71,9 +86,6 @@ h2{
     }
     
     #assignments-first{
-        display: flex;
-    }
-    #assignments-second{
         display: flex;
     }
 }

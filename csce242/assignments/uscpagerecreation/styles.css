@@ -1,0 +1,199 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/*header with logo and search bar above nav-bar*/
+#header{
+    width: 100vw;
+    height: 140px;
+    background: black;
+}
+
+#above-nav{
+    padding-left: 90px;
+    display: inline-flex;
+    height: 90px;
+}
+
+#above-nav input{
+    height: 35px;
+    background: black;
+    margin-top: 30px;
+    width: 275px;
+    position: relative;
+    left: 95%;
+    border: 1px solid white;
+    background-image: url("../uscpagerecreation/images/searchicon.png");
+    background-repeat: no-repeat;
+    background-position: 248px 8px;
+    color: white;
+    padding-left: 10px;
+}
+
+/*Horizontal nav bar (add drop down menus here)*/
+#nav-bar{
+    height: 50px;
+    background: #73000A;
+}
+
+#nav-bar li{
+    font-family: Verdana;
+    font-style: bold;
+    list-style-type: none;
+    display: inline-block;
+    padding: 14px;
+    padding-left: 55px;
+    color: white;
+}
+
+#nav-bar a{
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+
+#nav-bar a:hover{
+    background:#CA2D3F;
+    padding: 2px;
+}
+
+/*parallax background image here*/
+#parallax{
+    background: url(images/engineering_banner.jpg);
+
+    width: 100vw;
+    height: 100vh;
+    
+    /* Create the parallax scrolling effect*/
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Caption sentence over parallax background*/
+#floating-caption{
+    position: relative;
+    left: 50%;
+    top: 60%;
+}
+
+#floating-caption h1{
+    font-family: verdana;
+    display: table;
+    padding: 5px 15px 5px 15px;
+    background-color: #73000A;
+    color: white;
+}
+
+/*Intro paragraph after parallax background*/
+#main-content{
+    padding-left: 200px;
+}
+
+#content-header{
+    padding-left: 100px;
+    padding-top: 45px;
+    font-weight: 800;
+    font-family:"Impact", sans-serif;
+    font-size: 80pt;
+    color: #73000A;
+}
+
+#content-intro{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 12px;
+    font-size: 20pt;
+}
+
+#content-intro a{
+    color: #73000A;
+    font-weight: bold;
+}
+
+#dividing-line{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+/*Ending of intro paragraph*/
+
+/*Boxes with topic links*/
+#topic-boxes{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.box-links-a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-links{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.link-titles{
+    padding-left:15px;
+    padding-top: 5px;
+    font-weight: 700;
+    color: #73000A;
+
+}
+
+.box-links p{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 50px;
+    letter-spacing: .05em;
+}
+
+/*Beginning of footer and additional links*/
+#main-footer{
+    margin-top: 100px;
+    background: #73000A;
+    height: 325px;
+}
+
+#main-footer h1{
+    font-family: "Impact", sans-serif;
+    font-weight: 400;
+    position: relative;
+    left: 72%;
+    bottom: 18%;
+    color: white;
+}
+
+/*Social media button links*/
+#facebook{
+    position: relative;
+    left: 80%;
+}
+#instagram{
+    position: relative;
+    left: 81%;
+}
+#twitter{
+    position: relative;
+    left: 82%;
+}
+
+#red-usc-box{
+    height: 60px;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+
+#below-footer{
+    background: black;
+    height: 50px;
+    margin-top: 1px;
+}

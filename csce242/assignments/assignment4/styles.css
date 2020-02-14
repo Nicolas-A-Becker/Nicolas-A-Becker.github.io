@@ -19,18 +19,23 @@ html{
     text-align: center;
 }
 
+#input-boxes p {
+    display:flex;
+}
+
 #input-boxes label{
-    margin: 50px;
     width: 100px;
     text-align: right;
     padding: 5px;
     padding-right: 5px;
+    display:block;
 }
 
 #input-boxes input{
     margin: 10px;
     width: 50%;
     padding: 5px;
+    display:block;
 }
 
 #input-boxes input:focus{
