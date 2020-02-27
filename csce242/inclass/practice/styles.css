@@ -1,0 +1,8 @@
+div{
+    display: flex;
+    flex-direction: row;
+}
+.boxes{
+    flex: 1;
+    display: block;
+}
