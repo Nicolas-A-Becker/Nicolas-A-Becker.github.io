@@ -20,11 +20,39 @@ body{
     text-align: center;
 }
 
-#draw-bow{
+#btn-draw-bow{
     background: #333333;
     color: #3399FF;
     border: none;
     padding: 6px;
     border-radius: 4px;
     margin-left: 10px;
+}
+
+.rainbow-bar{
+    height: 40px;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.red{
+    background: red;
+}
+.orange{
+    background: orange;
+}
+.yellow{
+    background: yellow;
+}
+.green{
+    background: green;
+}
+.blue{
+    background: blue;
+}
+.indigo{
+    background: indigo;
+}
+.violet{
+    background: violet;
 }
