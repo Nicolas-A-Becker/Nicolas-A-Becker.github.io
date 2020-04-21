@@ -1,0 +1,19 @@
+#dessert-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe{
+    width: 30%;
+    background: skyblue;
+    padding: 5px;
+    margin: 5px;
+}
+
+.recipe a{
+    text-decoration: none;
+}
+
+.hidden{
+    display:none;
+}
